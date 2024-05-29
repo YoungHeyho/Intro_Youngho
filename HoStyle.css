@@ -1,0 +1,163 @@
+
+.None{display: none;}
+.Block{display: block;}
+
+header a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+header a:active{color:gray;}
+header{overflow: hidden;}
+
+ul{overflow: hidden; list-style: none;}
+li{float: left; padding: 0; margin: 0;}
+
+.nav{float: right;}
+.nav-item{width: 100px;}
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: math;}
+
+#profil{overflow: hidden;}
+#title{float: left; font-family: sans-serif; padding-left: 25px;}
+#Homeimg{
+    width: 15%; height: 15%;
+    border: 3px solid black;
+    border-radius: 50%;
+    float:  left;}
+
+#introm{margin-top: 5px; font-size: 20px;}
+.intro{padding-left: 17%; width: 80%;}
+#introtext{line-height: 200%; width: 70%;}
+
+section a{
+    text-decoration: none;
+    color: #a30000;
+    text-align: center;}
+section a:active{color:#800020;}
+
+footer a{
+    text-decoration: none;
+    color: #a30000;
+    text-align: center;}
+footer a:active{color:#800020;}
+
+.Homefooter{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    bottom: 0px;
+    color: #a30000;
+    position: fixed;
+}
+.Hobbyfooter{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    bottom: 0px;
+    color: #a30000;
+}
+.footer-item{
+    width: 25%;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 75%;
+}
+
+#Hobby_main{padding-left: 5%;}
+#Travel1{
+    width: 25%;
+    height: 25%;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+#Travel2{
+    width: 44%;
+    height: 44%;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+#Guitar1{
+    width: 47%;
+    height: 47%;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+#Hobbyvideo{
+    border: 3px solid black;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+#Game1{
+    width: 23%;
+    height: 23%;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+#Game2{
+    width: 40%;
+    height: 40%;
+    border: 3px solid black;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+#Hobby3{margin-bottom: 50px;}
+#Hobytext{width: 80%;}
+
+
+#Mili{
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+}
+#MilitaryMain{
+    width: 20%;
+    height: 20%;
+    margin-left: 2%;
+    border: 3px solid black;
+    border-radius: 50%;
+    float:  left;
+}
+#Militext{
+    margin-top: 2.5%;
+    margin-left: 27%;
+    width: 50%;
+    line-height: 200%;
+}
+#Mili_right{margin-left: 33%;}
+#Mili_left p{margin-left: 3%;}
+#Mili_right p{margin-left: 3%;}
+
+#Military1{
+    width: 18%;
+    height: 18%;
+    margin-right: 4%;
+    float: right;
+    border-radius: 20px;
+}
+#Military2{
+    width: 30%;
+    height: 30%;
+    float: left;
+    border-radius: 15px;
+}
+#Military3{
+    width: 18%;
+    height: 18%;
+    margin-right: 4%;
+    float: right;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .intro{font-size: 75%;}
+    #introm{font-size: 15px;} 
+    .footer-item{font-size: 8px;}
+    #Hobby p{font-size: 12px;}
+    #Hobby h2{font-size: 20px;}
+    #Military p{font-size: 10px;}
+    #Military h2{font-size: 20px;}
+}
