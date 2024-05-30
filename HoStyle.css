@@ -10,7 +10,7 @@ header a{
 header a:active{color:gray;}
 header{overflow: hidden;}
 
-ul{overflow: hidden; list-style: none;}
+ul{overflow: hidden; list-style: none; padding: 0;}
 li{float: left; padding: 0; margin: 0;}
 
 .nav{float: right;}
