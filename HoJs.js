@@ -12,7 +12,7 @@ $(document).ready(function(){
         
         $('body>div').addClass('None').removeClass('Block');
         $(target).addClass('Block').removeClass('None');
-        $('#menu').slideUp('500');
+        $('#menu').slideUp('400');
     });
     
     $('.menubut').click(function(){
