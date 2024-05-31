@@ -1,3 +1,32 @@
+.menubut{
+    width: 45px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: right;
+    margin: 4% 4% auto auto;
+    cursor: pointer;
+    display: none;
+}
+.menubut section{
+    border-bottom: 2px solid darkgray;
+    margin-left: 10px;
+    width: 25px;
+    height: 7px;
+}
+#menu{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: none;
+}
+#menu section{
+    border-bottom: 1px solid black;
+}
+#menu section a{
+    color: black;
+}
 
 .None{display: none;}
 .Block{display: block;}
@@ -90,6 +119,7 @@ footer a:active{color:#800020;}
     border: 3px solid black;
     margin-left: 30px;
     border-radius: 30px;
+    width: 27.5%;
 }
 #Game1{
     width: 23%;
@@ -160,4 +190,12 @@ footer a:active{color:#800020;}
     #Hobby h2{font-size: 20px;}
     #Military p{font-size: 10px;}
     #Military h2{font-size: 20px;}
+    .menubut{display: block;}
+    #menu{display: none;}
+    nav{display: none;}
+}
+
+@media screen and (min-width:768px) {
+    #menu{display: none;}
+    #menu section{display: none;}
 }
