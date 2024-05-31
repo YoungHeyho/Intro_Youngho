@@ -12,6 +12,7 @@ $(document).ready(function(){
         
         $('body>div').addClass('None').removeClass('Block');
         $(target).addClass('Block').removeClass('None');
+        $('#menu').slideUp('500');
     });
     
     $('.menubut').click(function(){
