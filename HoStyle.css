@@ -30,7 +30,7 @@ li{float: left; padding: 0; margin: 0;}
 
 #introm{margin-top: 5px; font-size: 20px;}
 .intro{padding-left: 17%; width: 80%;}
-#introtext{line-height: 200%; width: 70%;}
+#introtext{line-height: 200%; width: 70%; margin-bottom: 50px;}
 
 section a{
     text-decoration: none;
